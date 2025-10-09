@@ -20,7 +20,7 @@
     .mobile
         &_item
             width: 300px
-            &_subtitle
+        &_subtitle
                 font-size: 22px
 
     .uberx
@@ -68,6 +68,17 @@
 
     .title
         font-size: 36px
+
+    .mobile
+        padding: 25px 0 40px 0
+        &_item
+            &_subtitle
+                font-size: 20px
+    .uberx
+        min-height: 800px
+        &_img
+            width: 100%
+    .footer
 
 
 @media (max-width: 767px)
@@ -137,6 +148,28 @@
     .promo
         &_header
             line-height: 45px
+    .reasons
+        padding: 40px 0
+        &_descr
+            width: 350px
+        &_subtitle
+            text-align: center
+        &_text
+            margin-top: 10px
+            text-align: center
+    .mobile
+        padding: 40px 0
+        &_item
+            &_subtitle
+                font-size: 18px
+    .uberx
+        padding: 40px 0
+        min-height: 600px
+    .require
+        padding: 40px 0
+    .world
+        min-height: 450px
+
 @media ( max-width:575px)
     header
         height: 30px
@@ -198,6 +231,73 @@
         font-size: 16px
         line-height: 16px
         margin-top: 15px
+
+    .mobile
+        padding: 25px 0 40px 0
+        .row
+            margin-top: 26px
+        &_item
+            width: 290px
+            height: 254px
+            margin-bottom: 30px
+            &_subtitle
+                 font-size: 18px
+            &_plus
+               bottom: 28px
+               &:hover
+                &::before , &::after
+                    background-color: var(--main-color)
+    .subtitle
+        font-size: 14px
+        line-height: 21px
+    .uberx
+        min-height: 390px
+        padding: 25px 0 30px 0
+        background: #000
+        &_img
+            width: 100%
+            margin-top: 35px
+        &_descr
+            font-size: 17px
+            line-height: 24px
+            margin-top: 23px
+            color: #ffffff
+        .black
+          display: none
+    .hidden-320
+        display: none
+    
+    .require
+        padding: 22px 0 30px 0
+        &_block
+            margin: 30px 0 0 0 
+        &_title
+            font-size: 16px
+        &_list
+            margin-top: 5px
+            padding-left: 30px
+            li
+                font-size: 14px
+                line-height: 16px
+                margin-bottom: 5px
+        &_descr
+            font-size: 14px
+            line-height: 16px
+    
+    .world
+        padding: 24px 0 30px 0
+        min-height: 360px
+        &_link
+            bottom: 30px
+            display: block
+            line-height: 15px
+            width: 200px
+
+
+
+
+
+
 
 
 
